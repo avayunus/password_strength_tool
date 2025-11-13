@@ -75,7 +75,7 @@ def estimate_bruteforce_times(password: str):
 
     return results
 
-
+# Analyze the basic properties of the password
 def analyze_basic_properties(password: str) -> list[str]:
     """
     Check basic properties: length, character types, etc.
